@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
 	let target=document.getElementById("level");
 	if(target){
 		let domLevel=0;
-		let currentElement=tareget;
+		let currentElement=target;
 		while(currentElement!==document.documentElement){
 			currentElement=currentElement.parentElement;
 			domLevel++;
